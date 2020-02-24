@@ -539,7 +539,7 @@ backup:
   componentName: "backup"
   # Schedule to run jobs. Must be in cron time format
   # Ref: https://crontab.guru/
-  schedule: "0 2 * * *"
+  schedule: "0 3 * * *"
   labels: {}
   annotations: {}
     # Example for authorization to AWS S3 using kube2iam
